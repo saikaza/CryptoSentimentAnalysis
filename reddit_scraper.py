@@ -54,8 +54,8 @@ if __name__ == '__main__':
     subreddit = 'bitcoin'
     keyword = 'bitcoin'
     filename = 'reddit_data.csv'
-    start_date = datetime.datetime(2018, 1, 1)
-    end_date = datetime.datetime(2019, 11, 21)
+    start_date = datetime.datetime(2024, 1, 1)
+    end_date = datetime.datetime(2024, 11, 21)
     one_day = datetime.timedelta(days=1)
 
     current_date = start_date

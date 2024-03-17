@@ -66,8 +66,8 @@ def scrape_google_news(start_date, end_date, file_name):
         current_date += datetime.timedelta(days=1)
 
 if __name__ == "__main__":
-    initial_date = '01/01/2018'
-    final_date = '01/02/2019'
+    initial_date = '01/01/2024'
+    final_date = '01/02/2024'
     raw_news_file = 'google_news_data.csv'
 
     scrape_google_news(initial_date, final_date, raw_news_file)
