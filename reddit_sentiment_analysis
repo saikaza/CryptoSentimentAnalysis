@@ -48,7 +48,6 @@ def bucketize_sentiment_data(input_file, output_file):
     df['publish_date'] = pd.to_datetime(df['publish_date'])
     df.set_index('publish_date', inplace=True)
 
-    # Resample the dataframe to 1-hour bins and compute mean sentiment values
     resampled = df.resample('H').mean().reset_index()
     resampled['publish_date'] = resampled['publish_date'].dt.strftime(DATE_FORMAT)
 

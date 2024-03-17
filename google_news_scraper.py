@@ -19,7 +19,6 @@ DATE_FORMAT = '%m/%d/%Y'
 COLUMNS_FOR_NEWS = [
     'index', 'date', 'status', 'search_url', 'article_1_url', 'article_1_content',
     'article_1_published', 'article_2_url', 'article_2_content', 'article_2_published',
-    # Continue for all article columns...
 ]
 
 def fetch_google_news(**kwargs):

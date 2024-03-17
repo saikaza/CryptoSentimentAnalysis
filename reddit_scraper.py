@@ -70,4 +70,4 @@ if __name__ == '__main__':
         save_data_to_csv(filename, processed_data)
 
         current_date += one_day
-        time.sleep(1)  # Pause to avoid hitting API rate limits
+        time.sleep(1) 
